@@ -1,0 +1,43 @@
+body {
+    background-color: #1e1e1e;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.snowflake {
+    position: fixed;
+    background-color: #CCC;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.navbar {
+    background-color: #1e1e1e;
+}
+
+#search {
+    background: #1e1e1e; 
+    color: #eee;
+}
+
+.title {
+    color: white; 
+    margin-bottom: 2.5rem;
+}
+
+thead {
+    color: #fff;
+}
+
+tbody {
+    color: #eee;
+}
